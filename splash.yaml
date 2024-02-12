@@ -1,0 +1,14 @@
+flutter_native_splash:
+  color: "#DFECDB"
+  color_dark: "#060E1E"
+  image: assets/images/Frame 2.png
+  image_dark: assets/images/Frame2_dark.png
+
+  android_12:
+    color: "#DFECDB"
+    color_dark: "#060E1E"
+    image: assets/images/Frame 2.png
+    image_dark: assets/images/Frame2_dark.png
+    android_gravity: fill
+
+wep: false
