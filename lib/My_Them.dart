@@ -27,6 +27,12 @@ class MyThem {
       bottomAppBarTheme: BottomAppBarTheme(
         color: Colors.white,
       ),
+      bottomSheetTheme: BottomSheetThemeData(
+          backgroundColor: Colors.white,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(25), topRight: Radius.circular(25)),
+              side: BorderSide(color: MyThem.primarycolor, width: 2))),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -38,12 +44,22 @@ class MyThem {
         ),
       ),
       textTheme: TextTheme(
-        titleLarge: TextStyle(
-          fontSize: 22,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
-        ),
-      ));
+          titleLarge: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+          titleMedium: TextStyle(
+              fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+          titleSmall: TextStyle(
+            fontSize: 20,
+            color: darkgraycolor,
+          ),
+          bodyMedium: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: MyThem.primarycolor,
+          )));
   static ThemeData appthemdark = ThemeData(
       scaffoldBackgroundColor: backgrounddarkcolor,
       primaryColor: primarycolor,
@@ -71,11 +87,32 @@ class MyThem {
           color: Colors.white,
         ),
       ),
+      bottomSheetTheme: BottomSheetThemeData(
+          backgroundColor: backgrounddarkcolor,
+          shadowColor: MyThem.primarycolor,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(25), topRight: Radius.circular(25)),
+              side: BorderSide(color: MyThem.primarycolor, width: 2))),
       textTheme: TextTheme(
-        titleLarge: TextStyle(
-          fontSize: 22,
-          fontWeight: FontWeight.bold,
-          color: backgrounddarkcolor,
-        ),
-      ));
+          titleLarge: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: backgrounddarkcolor,
+          ),
+          titleMedium: TextStyle(
+              fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
+          titleSmall: TextStyle(
+            fontSize: 20,
+            color: darkgraycolor,
+          ),
+          bodyMedium: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: MyThem.primarycolor,
+          ),
+          bodySmall: TextStyle(
+            fontSize: 14,
+            color: MyThem.primarycolor,
+          )));
 }

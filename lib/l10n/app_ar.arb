@@ -1,0 +1,20 @@
+{
+  "tasks": "المهام",
+  "settings": "الاعدادات",
+  "language": "اللغه",
+  "english": "الانجليزيه",
+  "arabic": "العربيه",
+  "them_mode": "الوضع",
+  "light": "نهاري",
+  "dark": "ليلي",
+  "done": "تم",
+  "add": "اضافه",
+  "please": "من فضلك",
+  "delete": "حذف",
+  "add_new_task": "اضافه مهمه جديده",
+  "enter_your_task_title": "ادخل عنوان المهمه",
+  "enter_your_task_details": "ادخل تفاصيل المهمه",
+  "select_time": "اختار الوقت",
+  "edit_task": "تعديل المهمه",
+  "save_changes": "حفظ التغييرات"
+}
