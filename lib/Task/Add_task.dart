@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:jiffy/jiffy.dart';
 
-import 'My_Them.dart';
+import '../My_Them.dart';
 
 class AddTask extends StatefulWidget {
   @override
@@ -91,7 +91,7 @@ class _AddTaskState extends State<AddTask> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(10.0),
+                    padding: const EdgeInsets.all(8.0),
                     child: Text(
                       AppLocalizations.of(context)!.select_time,
                       style: Theme.of(context)
